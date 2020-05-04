@@ -1,4 +1,4 @@
-# Debugging a Express server with simpel html webpack client
+# Debugging a Express server with simple html webpack client
 This project is using an Express server with simple html webpack client front end.
 
 ## Youtube tutorial
