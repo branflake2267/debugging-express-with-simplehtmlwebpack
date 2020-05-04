@@ -5,8 +5,6 @@ This project is using an Express server with simple html webpack client front en
 TODO
 
 ## Project Configuration
-
-## Project Configuration
 | Setting | Value |
 | --- | --- |
 | Purpose | Backend service with simple front end |
