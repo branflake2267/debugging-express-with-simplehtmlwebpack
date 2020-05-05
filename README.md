@@ -33,7 +33,7 @@ TODO
 * Use the VS Code Launcher `2. Launch Client`
 * [http://localhost:8080](http://localhost:8080) - ./ client
 
-## Debugging Client & Server Together
+### Debugging Client & Server Together
 
 * Use the VS Code Launcher `3. Launch Client Chrome`
 * [http://localhost:8080](http://localhost:8080) - ./ client
