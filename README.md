@@ -20,7 +20,7 @@ TODO
 
 ## Debugging
 
-* Run `npm install` to download the libraries used in this project.
+* From the project root, run `npm install` to download the libraries used in this project.
 
 ### Debugging Server
 
