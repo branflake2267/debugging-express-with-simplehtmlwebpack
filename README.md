@@ -11,7 +11,7 @@ TODO
 | --- | --- |
 | Purpose | Backend service with simple front end |
 | Web Server | Express |
-| Frontend/Client | Simple HTML webpack configuration |
+| Frontend/Client | Simple HTML/JavaScript webpack configuration |
 | Language | JavaScript |
 | Architecture | npm/node |
 | IDE | Visual Studio Code |
