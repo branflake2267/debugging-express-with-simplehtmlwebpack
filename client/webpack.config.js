@@ -3,7 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
+  // Always set to development mode for this template
   mode: 'development',
+
+  // The page will load this file first
   entry: './index.js',
   
   // Build output lands in the ./dist folder
@@ -20,9 +23,18 @@ module.exports = {
   plugins: [
     // Clean the ./dist directory.
     new CleanWebpackPlugin(),
+
     // Copy the index.html file to the ./dist directory and put the bundle.js in the index.html. 
     new HtmlWebpackPlugin({
       template: './index.html',
     })
-  ]
+  ],
+
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    port: 8080,
+    proxy: {
+      "/api": "http://localhost:3000"
+    }
+  }
 };

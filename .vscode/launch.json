@@ -5,6 +5,7 @@
   "version": "0.2.0",
   "configurations": [
 
+    // Launch the server
     // http://localhost:3000
     {
       "type": "node",
@@ -16,11 +17,12 @@
       "program": "${workspaceFolder}/server/express.js"
     },
 
+    // Launch the client
     // http://localhost:8080
     {
       "type": "node",
       "request": "launch",
-      "name": "Client - Run Ext JS App Watch",
+      "name": "Launch Client",
       "program": "${workspaceFolder}/node_modules/webpack-dev-server/bin/webpack-dev-server.js",
       "cwd": "${workspaceFolder}/client",
       "args": [
@@ -34,14 +36,14 @@
       }
     },
     
-    // Debug with Chrome
-    {
-      "type": "chrome",
-      "request": "launch",
-      "name": "Launch Chrome - Server",
-      "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}"
-    }
+    // // Debug with Chrome
+    // {
+    //   "type": "chrome",
+    //   "request": "launch",
+    //   "name": "Launch Chrome - Server",
+    //   "url": "http://localhost:3000",
+    //   "webRoot": "${workspaceFolder}"
+    // }
   ]
 }
 
