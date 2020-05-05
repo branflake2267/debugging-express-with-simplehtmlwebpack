@@ -20,27 +20,30 @@ TODO
 
 ## Debugging
 
+* Run `npm install` to download the libraries used in this project.
 
 ### Debugging Server
 
+* Use the VS Code Launcher `1. Launch Server`
 * [http://localhost:3000](http://localhost:3000) - ./ server
 * [http://localhost:3000/api](http://localhost:3000/api) - ./api server
 
-
 ### Debugging Client
 
+* Use the VS Code Launcher `2. Launch Client`
 * [http://localhost:8080](http://localhost:8080) - ./ client
-
 
 ## Debugging Client & Server Together
 
-
+* Use the VS Code Launcher `3. Launch Client Chrome`
 * [http://localhost:8080](http://localhost:8080) - ./ client
 * [http://localhost:8080/api](http://localhost:8080/api) - ./api server
 
 
 
 ## Build
+Build from the root of this project. 
 
 * Run `npm install`
 * Run `npm run build`
+* The files will be output to the `./dist` directory.
