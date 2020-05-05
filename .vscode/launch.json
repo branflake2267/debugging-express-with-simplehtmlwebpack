@@ -10,7 +10,8 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Server",
+      "name": "1. Launch Server",
+      "cwd": "${workspaceFolder}/server",
       "skipFiles": [
         "<node_internals>/**"
       ],
@@ -22,8 +23,8 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Client",
-      "program": "${workspaceFolder}/node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+      "name": "2. Launch Client",
+      "program": "${workspaceFolder}/client/node_modules/webpack-dev-server/bin/webpack-dev-server.js",
       "cwd": "${workspaceFolder}/client",
       "args": [
         "--env.enviroment=development",
@@ -36,14 +37,15 @@
       }
     },
     
-    // // Debug with Chrome
-    // {
-    //   "type": "chrome",
-    //   "request": "launch",
-    //   "name": "Launch Chrome - Server",
-    //   "url": "http://localhost:3000",
-    //   "webRoot": "${workspaceFolder}"
-    // }
+    // Open and debug with Chrome for the cLient
+    // http://localhost:8080
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "3. Launch Client Chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    }
   ]
 }
 

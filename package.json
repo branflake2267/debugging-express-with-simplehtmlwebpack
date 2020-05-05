@@ -12,13 +12,16 @@
     "url": "https://github.com/branflake2267/debugging-express-with-simplehtmlwebpack/issues"
   },
   "homepage": "https://github.com/branflake2267/debugging-express-with-simplehtmlwebpack#readme",
-  "scripts": {},
-  "dependencies": {
-    "express": "^4.17.1"
+  "scripts": {
+    "install": "cd client && npm install && cd ../server && npm install",
+    "clean": "rm -rf ./dist && mkdir ./dist",
+    "build": "npm run clean && npm run buildClient && npm run buildServer && npm run buildDist",
+    "buildClient": "cd client && npm build && cd ../",
+    "buildServer": "cd server && npm build && cd ../",
+    "buildDist": "cp -R ./server/ dist && cp -R ./client/dist/ ./server/html",
+    "serverFromDist": "node ./dist/express.js"
+
   },
-  "devDependencies": {
-    "webpack-dev-server": "^3.10.3",
-    "webpack": "~4.39.2",
-    "webpack-cli": "~3.3.6"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
