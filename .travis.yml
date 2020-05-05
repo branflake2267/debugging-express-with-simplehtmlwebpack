@@ -3,13 +3,10 @@ language: node_js
 node_js:
   - "lts/*"
 
-before_install: 
-  - pwd
-
 install:
-  - pwd
+  - npm install
 
 script:
-  - pwd
+  - npm run build
 
 # deploy:
