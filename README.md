@@ -1,6 +1,8 @@
 # Debugging a Express server with simple html webpack client
 This project is using an Express server with simple html webpack client front end.
 
+[![Build Status](https://www.travis-ci.org/branflake2267/debugging-express-with-simplehtmlwebpack.svg?branch=master)](https://www.travis-ci.org/branflake2267/debugging-express-with-simplehtmlwebpack)
+
 ## Youtube tutorial
 TODO
 
