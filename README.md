@@ -34,6 +34,7 @@ TODO
 * [http://localhost:8080](http://localhost:8080) - ./ client
 
 ### Debugging Client & Server Together
+Debug both the client and server together. The webpack dev server provides a reverse proxy to the server. 
 
 * Use the VS Code Launcher `3. Launch Client Chrome`
 * [http://localhost:8080](http://localhost:8080) - ./ client
