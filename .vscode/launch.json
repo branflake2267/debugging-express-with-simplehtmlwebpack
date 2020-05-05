@@ -26,6 +26,7 @@
       "name": "2. Launch Client",
       "program": "${workspaceFolder}/client/node_modules/webpack-dev-server/bin/webpack-dev-server.js",
       "cwd": "${workspaceFolder}/client",
+      
       "args": [
         "--env.enviroment=development",
         "--config",
@@ -38,13 +39,14 @@
     },
     
     // Open and debug with Chrome for the cLient
-    // http://localhost:8080
+    // http://localhost:8080 (client) or http://localhost:8080/api (server)
     {
       "type": "chrome",
       "request": "launch",
       "name": "3. Launch Client Chrome",
       "url": "http://localhost:8080",
-      "webRoot": "${workspaceFolder}"
+      "webRoot": "${workspaceFolder}/client",
+      "sourceMaps": true
     }
   ]
 }

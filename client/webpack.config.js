@@ -31,6 +31,8 @@ module.exports = {
   ],
 
   devServer: {
+    hot: true,
+    //open: 'Google Chrome',
     contentBase: path.join(__dirname, 'dist'),
     port: 8080,
     proxy: {
