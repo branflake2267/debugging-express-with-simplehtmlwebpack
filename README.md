@@ -48,4 +48,5 @@ Build from the root of this project.
 * Run `npm install`
 * Run `npm run build`
 * The files will be output to the `./dist` directory.
+* Run `npm run serverFromDist` to run the server from dist build directory.
 * Open http://localhost:3000 or http://localhost:3000/api
