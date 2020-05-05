@@ -15,12 +15,10 @@
   "scripts": {
     "install": "cd client && npm install && cd ../server && npm install",
     "clean": "rm -rf ./dist && mkdir ./dist",
-    "build": "npm run clean && npm run buildClient && npm run buildServer && npm run buildDist",
+    "build": "npm run clean && npm run buildClient && npm run buildDist",
     "buildClient": "cd client && npm run build && cd ../",
-    "buildServer": "cd server && npm run build && cd ../",
     "buildDist": "cp -R ./server/ dist && cp -R ./client/dist/ ./server/html",
     "serverFromDist": "node ./dist/express.js"
-
   },
   "dependencies": {},
   "devDependencies": {}
