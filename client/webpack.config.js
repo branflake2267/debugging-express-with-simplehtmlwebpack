@@ -34,6 +34,7 @@ module.exports = {
     contentBase: path.join(__dirname, 'dist'),
     port: 8080,
     proxy: {
+      // This makes it easy to use the web-pack-server configuration with a backend server
       "/api": "http://localhost:3000"
     }
   }
