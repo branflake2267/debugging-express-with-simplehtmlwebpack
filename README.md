@@ -7,7 +7,7 @@ This project is using an Express server with simple html webpack client front en
 | Setting | Value |
 | --- | --- |
 | Purpose | Debug a simple web server and simple front end with self contained container directory architecture |
-| Server | Express Web Server |
+| Server | Express web server |
 | Client | Simple HTML/JavaScript webpack configuration |
 | Language | JavaScript |
 | Architecture | npm/node |
