@@ -12,6 +12,7 @@ This project is using an Express server with simple html webpack client front en
 | Language | JavaScript |
 | Architecture | npm/node |
 | IDE | Visual Studio Code |
+| CI | Travis CI |
 | License | GPL v3 |
 
 
