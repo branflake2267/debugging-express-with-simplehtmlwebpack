@@ -1,7 +1,7 @@
 # Debugging a express server with simple html webpack client
 This project is using an Express server with simple html webpack client front end.
 
-[![Debugging Video Tutorial](https://img.youtube.com/vi/QR_Lmc-97Z4/0.jpg)](https://www.youtube.com/watch?v=QR_Lmc-97Z4)
+[![Debugging Video Tutorial](https://img.youtube.com/vi/-Y8J4sgr6uU/0.jpg)](https://www.youtube.com/watch?v=-Y8J4sgr6uU)
 
 ## Project Configuration
 | Setting | Value |
