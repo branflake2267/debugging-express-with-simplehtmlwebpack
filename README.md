@@ -49,3 +49,9 @@ Build from the root of this project.
 * The files will be output to the `./dist` directory.
 * Run `npm run serverFromDist` to run the server from `./dist` build directory.
 * Open http://localhost:3000 or http://localhost:3000/api
+
+
+## Deploy
+Would you like to deploy this to Elastic Beanstalk? 
+
+* [Check out Part 2: Debugging AWS multi-docker EB config](https://github.com/branflake2267/debugging-multi-docker-aws-eb)
